@@ -9,8 +9,8 @@ except NameError:
 def window(seq, n=2):
     it = iter(seq)
     win = deque((next(it, None) for _ in xrange(n)), maxlen=n)
-    yield win
+    yield tuple(win)
     append = win.append
     for e in it:
         append(e)
-        yield win
+        yield tuple(win)
