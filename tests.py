@@ -1,6 +1,6 @@
 import nose.tools as n
 
-from moving_window import window
+from sliding_window import window
 
 def test_window():
     observed = list(map(tuple,window(range(8), n = 3)))

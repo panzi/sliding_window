@@ -3,7 +3,6 @@ from distutils.core import setup
 setup(name='sliding_window',
     maintainer='Thomas Levine',
     maintainer_email='_@thomaslevine.com',
-    author='Jerry Kindall',
     description='Move a window over an iterater (ngrams).',
     url='https://github.com/tlevine/sliding_window.git',
     classifiers=[
