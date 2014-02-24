@@ -11,6 +11,6 @@ setup(name='sliding_window',
     packages=['sliding_window'],
     install_requires = [],
     tests_require = ['nose'],
-    version='0.0.1',
+    version='0.0.2',
     license='CC-BY-SA'
 )
