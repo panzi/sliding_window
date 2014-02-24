@@ -1,8 +1,9 @@
 from distutils.core import setup
 
 setup(name='sliding_window',
-    author='Thomas Levine',
-    author_email='_@thomaslevine.com',
+    maintainer='Thomas Levine',
+    maintainer_email='_@thomaslevine.com',
+    author='Jerry Kindall',
     description='Move a window over an iterater (ngrams).',
     url='https://github.com/tlevine/moving_window.git',
     classifiers=[
