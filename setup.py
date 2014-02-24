@@ -5,13 +5,13 @@ setup(name='sliding_window',
     maintainer_email='_@thomaslevine.com',
     author='Jerry Kindall',
     description='Move a window over an iterater (ngrams).',
-    url='https://github.com/tlevine/moving_window.git',
+    url='https://github.com/tlevine/sliding_window.git',
     classifiers=[
         'Intended Audience :: Developers',
     ],
-    packages=['craigsgenerator'],
+    packages=['sliding_window'],
     install_requires = [],
     tests_require = ['nose'],
     version='0.0.1',
-    license='AGPL'
+    license='CC-BY-SA'
 )
